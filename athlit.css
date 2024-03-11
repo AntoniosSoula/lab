@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+.background {
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    filter:contrast(150%);
+    height: 100vh;
+}
+#title{
+  color: rgba(49, 28, 165, 0.8); /* Χρώμα κειμένου με διαφάνεια */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  text-align:center
+}
+
+
+#title::first-letter{ font-size:50px;}
+
